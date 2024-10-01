@@ -1,0 +1,353 @@
+:root {
+    font-size: 10px;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+}
+
+body, html {
+    width: 100dvw;
+    height: 100dvh;
+    background-color: #121212;
+    font-family: Inter, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 192rem;
+    min-width:120rem ;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .header{
+    display: flex;
+}
+
+.container .header .nav{
+    display: flex;
+    width: 192rem;
+    height: 55px;
+    padding: 1.288rem 2rem 1.287rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#414042;
+}
+
+.nav_logo{
+    display: flex;
+    width: 11.8554rem;
+    align-items: center;
+    gap: 0.9rem;
+    flex-shrink: 0;
+}
+
+.nav .nav_acc{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+svg{
+    display: flex;
+    width: 35px;
+    height: 29.25px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.nav_primary{
+    display: flex;
+    height: 8rem;
+    max-height: 8rem;
+    align-items: center;
+}
+
+.nav_primary .nav_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0;
+}
+
+.component{
+    display: flex;
+    width: 7rem;
+    height: 2.5rem;
+    min-width: 7rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.component p{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+}
+
+.button_play{
+    display: flex;
+    width: 20rem;
+    height: 8rem;
+    min-height: 6rem;
+    padding: 3.2rem 5.904rem 3.2rem 5.905rem;
+    flex-direction: column;
+    align-items: center;
+    background-color: #853535;
+}
+
+
+.container .section{
+    padding: 7.5rem 0;
+    display: flex;
+    align-items: center;
+    gap: 9.5rem;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+
+.img_section{
+    width: 95.5rem;
+    height: 60rem
+}
+
+.intro{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     gap: 3.8rem;
+ }
+
+.intro h1{
+    font-size: 4.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.2rem; /* 100% */
+    letter-spacing: 0.21rem;
+    text-transform: uppercase;
+}
+
+.intro .cast{
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.8rem; /* 100% */
+    letter-spacing: 0.14rem;
+    text-transform: uppercase;
+    border-bottom: 4px solid #860707;
+}
+
+.intro .cast{
+    padding-bottom: 1rem;
+}
+
+.list{
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+ul {
+    padding-left: 0; /* 移除左边距 */
+    list-style-position: inside; /* 将 bullet 和文字对齐 */
+}
+
+.bot-button{
+    display: flex;
+    align-items: flex-start;
+    gap: 9.5rem;
+}
+
+.bot-button .watch-button{
+    display: flex;
+    min-width: 23rem;
+    min-height: 6rem;
+    padding: 1.5rem 2rem 1.5rem 0;
+    align-items: center;
+    gap: 1rem;
+}
+
+.bot-button .watch-button button{
+    display: flex;
+    align-content: center;
+    background: transparent;
+    height: 5.6rem;
+    left: 0.2rem;
+    top: 0.2rem;
+    border: 2px solid #C00;
+    text-align: center;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.2rem; /* 100% */
+    letter-spacing: 0.22rem;
+    text-transform: uppercase;
+    min-width: 23rem;
+    min-height: 6rem;
+    padding: 1.5rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+.bot-button .watch-button button{
+    color: #FFF;
+}
+
+.bot-button .watch-button img{
+    width: 3rem;
+    height: 3.0532rem;
+    flex-shrink: 0;
+}
+
+.link-button{
+    height: 6rem;
+    min-width: 23rem;
+    min-height: 6rem;
+    padding: 1.9rem 4.493rem 1.9rem 4.5rem;
+    align-items: center;
+}
+
+.link-button button{
+    width: 24.1rem;
+    height: 5.6rem;
+    right: 0.193rem;
+    top: 0.2rem;
+    border: 2px solid #FFF;
+    background: transparent;
+    color: #FFF;
+    text-align: center;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.2rem; /* 100% */
+    letter-spacing: 0.22rem;
+    text-transform: uppercase;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20rem;
+    padding: 0.2rem 0rem 0rem;
+    position: relative;
+    background-color: #121212;
+    border-top-width: 0.2rem;
+    border-top-style: solid;
+    border-color: #300303;
+}
+
+.footer .background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 8rem;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #292d2e;
+}
+
+.footer .container {
+    position: relative;
+    max-width: 175rem;
+    width: 175rem;
+    height: 11.68rem;
+}
+
+.footer .nav-menubar {
+    display: flex;
+    flex-wrap: wrap;
+    width: 830px;
+    align-items: center;
+    justify-content: center;
+    gap: 0rem 3rem;
+    position: absolute;
+    top: 1rem;
+    left: 42.3rem;
+}
+
+.footer .component {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.footer .text {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.1rem;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 1.6rem;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.footer .div {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.footer .img {
+    position: relative;
+    width: 1.25rem;
+    height: 1.6rem;
+}
+
+.footer .component-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 0;
+    left: 127.7rem;
+}
+
+.footer .component-2 {
+    position: relative;
+    width: 5rem;
+    height: 4.18rem;
+}
+
+.footer .text-wrapper {
+    position: absolute;
+    width: 78.9rem;
+    height: 1.5rem;
+    top: 10.1rem;
+    left: 48.1rem;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 1.1rem;
+    text-align: center;
+    letter-spacing: 0.05500000000000001rem;
+    line-height: normal;
+}
+
