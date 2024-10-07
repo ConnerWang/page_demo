@@ -147,7 +147,8 @@
     .bot-button{
       min-width: 100%;
       display: flex;
-      align-items: flex-start;
+      justify-content: flex-start; /* 调整为左对齐 */
+      align-items: center; /* 确保所有子元素垂直居中 */
       gap: 9.5rem;
 
       .watch-button{
@@ -192,7 +193,7 @@
         height: 6rem;
         min-width: 23rem;
         min-height: 6rem;
-        padding: 1.9rem 4.493rem 1.9rem 4.5rem;
+        padding: 0 4.493rem 1.9rem 4.5rem;
         align-items: center;
         transition: all .2s ease-out 0s;
 
