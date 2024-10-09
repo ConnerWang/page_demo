@@ -92,19 +92,11 @@
   top: 50%;
 }
 
-.button-name,
+
 .button-icon {
-  top: 50%;
-  left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   transition: all .3s ease-out;
-}
-
-.button-name {
-  font-size: 1.5rem;
-  font-weight: 600;
-  opacity: 1;
 }
 
 .button-icon {
